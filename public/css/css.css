@@ -1,0 +1,33 @@
+header{
+    padding: 20px 0px;
+    background: #008fe2; /* Old browsers */
+    background: -moz-linear-gradient(left, #008fe2 2%, #00b29c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #008fe2 2%,#00b29c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #008fe2 2%,#00b29c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008fe2', endColorstr='#00b29c',GradientType=1 ); /* IE6-9 */
+}
+.navbar{
+    margin-bottom: unset;
+    background-color: unset;
+    border: unset;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text, .navbar-default .navbar-brand{
+    color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: unset;
+}
+.navbar-toggle{
+    color: #fff;
+    border: unset;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background: unset;
+}
+main{
+    background: #fcfcfc;
+}
+.sidebar{
+    background: #fff;
+    padding: unset;
+}
